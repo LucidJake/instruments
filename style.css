@@ -1,0 +1,58 @@
+.header{
+  font-size:25pt;
+}
+html,body{
+  height:100%;
+  justify-content:center;
+}
+body{
+  display:flex;
+  flex-wrap: wrap;
+}
+.popUp{
+  height:100%;
+  width:100%;
+  background-color:rgba(193, 193, 193, 0.8);
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  visibility: hidden;
+}
+.popUp img{
+  height:100px;
+}
+.instrument{
+  height:200px;
+  width:170px;
+  border: black solid;
+  margin-top:100px;
+  margin-left:20px;
+  cursor:pointer;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  overflow: hidden;
+}
+.instrument img{
+  height:100px;
+}
+.inputPopUp{
+  height:100%;
+  width:100%;
+  background-color:rgba(193, 193, 193, 0.8);
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  visibility: hidden;
+}
